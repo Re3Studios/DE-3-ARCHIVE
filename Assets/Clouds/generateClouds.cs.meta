@@ -1,0 +1,16 @@
+fileFormatVersion: 2
+guid: 3d79ab9db45207c49aabb5392e65b71c
+timeCreated: 1525503277
+licenseType: Free
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences:
+  - cloudMesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
+  - cloudMat: {fileID: 2100000, guid: f38141c39cb5f3f40a78c03192c55ec4, type: 2}
+  - cam: {instanceID: 0}
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
