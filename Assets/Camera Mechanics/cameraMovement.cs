@@ -4,17 +4,11 @@ using System.Collections;
 public class cameraMovement : MonoBehaviour {
 
 	public float panSpeed = 20f;
-	public float rotSpeed = 80f;
+	public float rotSpeed;
 
 	public Vector2 panLimit;
 	private float mouseX;
 
-
-	void Start() {
-		
-	}
-
-	// Update is called once per frame
 	void Update () {
 
 		Rotate();
@@ -25,19 +19,13 @@ public class cameraMovement : MonoBehaviour {
         transform.Translate (Vector3.forward * vertical);
 		transform.Translate (Vector3.right * horizontal);
 
-		mouseX = Input.mousePosition.x;
-
 	}
 
 	public void Rotate() {
 
-		var easeFactor = 10f;
-
 		if (Input.GetMouseButton(2)) {
-			if (Input.mousePosition.x != mouseX) {
-				var cameraRotationY = (Input.mousePosition.x - mouseX) * easeFactor * Time.deltaTime;
-				transform.Rotate(0, cameraRotationY, 0);
-			}
+				var cameraRotationY = Input.GetAxis("Mouse X") * rotSpeed * Time.deltaTime;
+                transform.Rotate(0, cameraRotationY, 0);
 		}
 	}		
 }
