@@ -3,8 +3,9 @@ using System.Collections;
 
 public class cameraMovement : MonoBehaviour {
 
-	public float panSpeed = 20f;
+	public float panSpeed;
 	public float rotSpeed;
+    public float boostSpeed;
 
 	public Vector2 panLimit;
 	private float mouseX;
@@ -13,13 +14,24 @@ public class cameraMovement : MonoBehaviour {
 
 		Rotate();
 
-		float horizontal = Input.GetAxis ("Horizontal") * panSpeed * Time.deltaTime;
-		float vertical = Input.GetAxis ("Vertical") * panSpeed * Time.deltaTime;
+        if (Input.GetKey(KeyCode.LeftShift))
+        {
 
-        transform.Translate (Vector3.forward * vertical);
-		transform.Translate (Vector3.right * horizontal);
+            float horizontal = Input.GetAxis("Horizontal") * boostSpeed * Time.deltaTime;
+            float vertical = Input.GetAxis("Vertical") * boostSpeed * Time.deltaTime;
 
-	}
+            transform.Translate(Vector3.forward * vertical);
+            transform.Translate(Vector3.right * horizontal);
+        }
+        else
+        {
+            float horizontal = Input.GetAxis("Horizontal") * panSpeed * Time.deltaTime;
+            float vertical = Input.GetAxis("Vertical") * panSpeed * Time.deltaTime;
+
+            transform.Translate(Vector3.forward * vertical);
+            transform.Translate(Vector3.right * horizontal);
+        }
+    }
 
 	public void Rotate() {
 

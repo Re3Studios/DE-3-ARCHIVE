@@ -313,6 +313,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   panSpeed: 20
   rotSpeed: 80
+  boostSpeed: 50
   panLimit: {x: 0, y: 0}
 --- !u!4 &885955537
 Transform:

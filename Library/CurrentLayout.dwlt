@@ -107,10 +107,10 @@ MonoBehaviour:
     y: 30
     width: 1920
     height: 987
-  m_MinSize: {x: 809, y: 271}
-  m_MaxSize: {x: 22004, y: 10021}
+  m_MinSize: {x: 811, y: 271}
+  m_MaxSize: {x: 22006, y: 10021}
   vertical: 0
-  controlID: 2445
+  controlID: 2902
 --- !u!114 &6
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -181,10 +181,10 @@ MonoBehaviour:
     y: 0
     width: 1242
     height: 987
-  m_MinSize: {x: 377, y: 200}
-  m_MaxSize: {x: 8002, y: 8021}
+  m_MinSize: {x: 379, y: 221}
+  m_MaxSize: {x: 8004, y: 8021}
   vertical: 1
-  controlID: 2446
+  controlID: 2903
 --- !u!114 &9
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -205,10 +205,10 @@ MonoBehaviour:
     y: 0
     width: 1242
     height: 714
-  m_MinSize: {x: 377, y: 100}
-  m_MaxSize: {x: 8002, y: 4021}
+  m_MinSize: {x: 379, y: 121}
+  m_MaxSize: {x: 8004, y: 4021}
   vertical: 0
-  controlID: 2447
+  controlID: 2904
 --- !u!114 &10
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -405,17 +405,17 @@ MonoBehaviour:
     m_Folders:
     - Assets/Camera Mechanics
   m_ViewMode: 1
-  m_StartGridSize: 64
+  m_StartGridSize: 16
   m_LastFolders:
   - Assets/Camera Mechanics
-  m_LastFoldersGridSize: -1
+  m_LastFoldersGridSize: 16
   m_LastProjectPath: C:\Users\Andre_PC\Documents\Unity Storage\Timber and Stone Remake\DE-3
   m_IsLocked: 0
   m_FolderTreeState:
     scrollPos: {x: 0, y: 0}
     m_SelectedIDs: 94270000
     m_LastClickedID: 10132
-    m_ExpandedIDs: 0000000090270000f62700000028000000ca9a3bffffff7f
+    m_ExpandedIDs: 0000000090270000f82700000228000000ca9a3bffffff7f
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -443,7 +443,7 @@ MonoBehaviour:
     scrollPos: {x: 0, y: 0}
     m_SelectedIDs: 
     m_LastClickedID: 0
-    m_ExpandedIDs: 0000000090270000f62700000028000000ca9a3bffffff7f
+    m_ExpandedIDs: 0000000090270000f82700000228000000ca9a3bffffff7f
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -471,7 +471,7 @@ MonoBehaviour:
     m_SelectedInstanceIDs: 
     m_LastClickedInstanceID: 0
     m_HadKeyboardFocusLastEvent: 0
-    m_ExpandedInstanceIDs: c6230000d8280000c03e0000f43e0000643f0000c0b4d1ff00000000
+    m_ExpandedInstanceIDs: c6230000d8280000c03e0000f43e0000643f0000c0b4d1ff00000000742a0000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -496,7 +496,7 @@ MonoBehaviour:
       m_ResourceFile: 
     m_NewAssetIndexInList: -1
     m_ScrollPosition: {x: 0, y: 0}
-    m_GridSize: 64
+    m_GridSize: 16
   m_DirectoriesAreaWidth: 110
 --- !u!114 &15
 MonoBehaviour:
@@ -585,9 +585,9 @@ MonoBehaviour:
   m_isRotationLocked: 0
   m_AudioPlay: 0
   m_Position:
-    m_Target: {x: -0.7868986, y: 10.6927595, z: -2.7597005}
+    m_Target: {x: 3.058407, y: 3.118711, z: -0.022269744}
     speed: 2
-    m_Value: {x: -0.7868986, y: 10.6927595, z: -2.7597005}
+    m_Value: {x: 3.058407, y: 3.118711, z: -0.022269744}
   m_RenderMode: 0
   m_ValidateTrueMetals: 0
   m_SceneViewState:
@@ -611,13 +611,13 @@ MonoBehaviour:
       speed: 2
       m_Value: 0
   m_Rotation:
-    m_Target: {x: -0.23473398, y: 0.669572, z: -0.23681371, w: -0.6636961}
+    m_Target: {x: -0.07567449, y: 0.6945867, z: -0.073867895, w: -0.71159416}
     speed: 2
-    m_Value: {x: -0.23473398, y: 0.669572, z: -0.2368137, w: -0.6636961}
+    m_Value: {x: -0.0756745, y: 0.69458675, z: -0.0738679, w: -0.71159416}
   m_Size:
-    m_Target: 14.881231
+    m_Target: 2.4279447
     speed: 2
-    m_Value: 14.881231
+    m_Value: 2.4279447
   m_Ortho:
     m_Target: 0
     speed: 2
