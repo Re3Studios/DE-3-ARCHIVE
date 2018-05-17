@@ -12,7 +12,7 @@ public class cameraMovement : MonoBehaviour {
 
 	void Update () {
 
-		Rotate();
+		Rotate(); 
 
         if (Input.GetKey(KeyCode.LeftShift))
         {

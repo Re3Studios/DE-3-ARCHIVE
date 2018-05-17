@@ -54,6 +54,8 @@
      <Compile Include="Assets\Camera Mechanics\cameraMovement.cs" />
      <Compile Include="Assets\Camera Mechanics\Zoom.cs" />
      <Compile Include="Assets\Clouds\generateClouds.cs" />
+     <Compile Include="Assets\Item Storage\itemList.cs" />
+     <Compile Include="Assets\Item Storage\newItem.cs" />
      <Compile Include="Assets\Models\createBlock.cs" />
      <Compile Include="Assets\Terrain Generation Engine\chunkManager.cs" />
      <Compile Include="Assets\Terrain Generation Engine\generationEngine.cs" />
